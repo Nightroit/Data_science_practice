@@ -3,10 +3,10 @@ import pandas as pd
 
 # Connect to MySQL
 connection = mysql.connector.connect(
-    user='Shivam',
-    password='slowly',
-    host='localhost',
-    database='temp'
+    user='',
+    password='',
+    host='',
+    database=''
 )
 
 cursor = connection.cursor()
@@ -21,6 +21,7 @@ column_names = []
 
 for x in cursor.description:
     column_names.append(x[0])
+    
 dictionary = {}
 
 for column_idx, column_name in enumerate(column_names):
