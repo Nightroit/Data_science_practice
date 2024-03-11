@@ -15,4 +15,19 @@ original_data = {
 data = pd.DataFrame(original_data)
 data.replace('N/A', None, inplace=True)
 data.dropna(inplace=True)
-print(data)
+
+
+# Task 2: seperate the systolic and diastolic value from the blood_pressure column.
+blood_pressure_systolic = []
+blood_pressure_diastolic = []
+
+for values in data['blood_pressure']: 
+    blood_pressure_systolic.append(values.split('/')[0])
+    blood_pressure_diastolic.append(values.split('/')[1])
+
+del original_data['blood_pressure']
+original_data['blood_pressure_systolic'] = blood_pressure_systolic
+original_data['blood_pressure_diastolic']  = blood_pressure_diastolic
+
+print(original_data)
+    
