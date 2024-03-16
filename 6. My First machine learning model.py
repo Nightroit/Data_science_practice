@@ -18,6 +18,8 @@ flat_data = {
 flat_data_df = pd.DataFrame(flat_data)
 flat_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude']
 
+
+
 Y = flat_data['Price'] 
 X = flat_data_df[flat_features]
 
