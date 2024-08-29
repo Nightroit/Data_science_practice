@@ -1,0 +1,51 @@
+song_id,title,artist,genre
+1,Song1,Artist17,Country
+2,Song2,Artist4,Pop
+3,Song3,Artist17,Country
+4,Song4,Artist12,Rock
+5,Song5,Artist8,Hip Hop
+6,Song6,Artist4,Country
+7,Song7,Artist4,Jazz
+8,Song8,Artist19,Pop
+9,Song9,Artist20,Jazz
+10,Song10,Artist5,Classical
+11,Song11,Artist12,Classical
+12,Song12,Artist5,Country
+13,Song13,Artist7,Country
+14,Song14,Artist19,Rock
+15,Song15,Artist9,Hip Hop
+16,Song16,Artist19,Classical
+17,Song17,Artist16,Hip Hop
+18,Song18,Artist11,Hip Hop
+19,Song19,Artist11,Country
+20,Song20,Artist7,Electronic
+21,Song21,Artist12,Hip Hop
+22,Song22,Artist18,Jazz
+23,Song23,Artist14,Country
+24,Song24,Artist15,Jazz
+25,Song25,Artist20,Pop
+26,Song26,Artist8,Rock
+27,Song27,Artist1,Pop
+28,Song28,Artist5,Jazz
+29,Song29,Artist11,Hip Hop
+30,Song30,Artist20,Pop
+31,Song31,Artist8,Country
+32,Song32,Artist3,Pop
+33,Song33,Artist9,Rock
+34,Song34,Artist19,Hip Hop
+35,Song35,Artist5,Country
+36,Song36,Artist3,Jazz
+37,Song37,Artist19,Pop
+38,Song38,Artist10,Classical
+39,Song39,Artist11,Electronic
+40,Song40,Artist20,Rock
+41,Song41,Artist15,Country
+42,Song42,Artist7,Classical
+43,Song43,Artist6,Country
+44,Song44,Artist3,Pop
+45,Song45,Artist19,Jazz
+46,Song46,Artist1,Classical
+47,Song47,Artist9,Rock
+48,Song48,Artist15,Classical
+49,Song49,Artist19,Electronic
+50,Song50,Artist15,Country
