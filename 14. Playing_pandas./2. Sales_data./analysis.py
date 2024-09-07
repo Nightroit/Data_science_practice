@@ -8,8 +8,5 @@ date_format = "%Y-%m-%d"
 
 # Task 1: Converting Purchase_Date from string to date object.
 
-for i in range(rows_length):
-    date_string =  df['Purchase_Date'][i].split(" ")[0]
-    date_obj = datetime.strptime(date_string, date_format).date()
-    df['Purchase_Date'][i] = date_obj
-
+df['Purchase_Date'] = pd.to_datetime(df['Purchase_Date'], format="%Y-%m-%d %H:%M:%S.%f") 
+print(type(df['Purchase_Date'][1]))
